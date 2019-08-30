@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LTC6812ILWE_1#3ZZPBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LTC6812ILWE-1#3ZZPBF" (!) = "", "QFP50P1200X1200X160-65N", "Quad Flat Packages", "584-6812ILWE-13ZZPBF", "", "", "", "Battery Management Multicell Bat Mon s", "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6812-1.pdf", "1.6 mm"
+END_PART
+
+END.

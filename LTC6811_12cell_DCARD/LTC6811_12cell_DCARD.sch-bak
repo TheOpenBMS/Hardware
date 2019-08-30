@@ -412,20 +412,6 @@ Text Label 1750 4500 0    50   ~ 0
 C11_in
 Text Label 1750 4400 0    50   ~ 0
 C12_in
-$Comp
-L power:GND #PWR0105
-U 1 1 5D55823D
-P 1350 4000
-AR Path="/5D55823D" Ref="#PWR0105"  Part="1" 
-AR Path="/5D1664F1/5D55823D" Ref="#PWR?"  Part="1" 
-AR Path="/5D167BBA/5D55823D" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 1350 3750 50  0001 C CNN
-F 1 "GND" H 1355 3827 50  0000 C CNN
-F 2 "" H 1350 4000 50  0001 C CNN
-F 3 "" H 1350 4000 50  0001 C CNN
-	1    1350 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3250 3100 3550 3100
 Wire Wire Line
@@ -1339,15 +1325,6 @@ F 3 "" H 8150 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 3850 1600 4000
-Wire Wire Line
-	1600 4000 1350 4000
-Wire Wire Line
-	1350 4000 1100 4000
-Wire Wire Line
-	1100 4000 1100 3850
-Connection ~ 1350 4000
-Wire Wire Line
 	800  3550 1100 3550
 Wire Wire Line
 	1900 3550 1600 3550
@@ -1396,17 +1373,30 @@ C11_in
 Text Label 800  3250 0    50   ~ 0
 C12_in
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 5D7CA317
 P 7400 5400
-AR Path="/5D7CA317" Ref="#PWR?"  Part="1" 
+AR Path="/5D7CA317" Ref="#PWR0106"  Part="1" 
 AR Path="/5D4F34CB/5D7CA317" Ref="#PWR?"  Part="1" 
 AR Path="/5D167BBA/5D7CA317" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7400 5150 50  0001 C CNN
+F 0 "#PWR0106" H 7400 5150 50  0001 C CNN
 F 1 "GND" H 7400 5250 50  0000 C CNN
 F 2 "" H 7400 5400 50  0001 C CNN
 F 3 "" H 7400 5400 50  0001 C CNN
 	1    7400 5400
 	1    0    0    -1  
 $EndComp
+Text Label 1750 5600 0    50   ~ 0
+C0_in
+Wire Wire Line
+	1750 5600 2150 5600
+Connection ~ 2150 5600
+Text Label 1900 3850 2    50   ~ 0
+C0_in
+Text Label 800  3850 0    50   ~ 0
+C0_in
+Wire Wire Line
+	800  3850 1100 3850
+Wire Wire Line
+	1600 3850 1900 3850
 $EndSCHEMATC

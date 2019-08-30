@@ -1,0 +1,18 @@
+.LTC6811-1 :1 ;Multicell Battery Monitors
+SOP50P780X200-48N
+*STM IC
+*NGS
+*PLB 1="V+" 2="C12" 3="S12_1" 4="S12_2" 5="S11" 6="C10" 7="S10" 8="C9" 9="S9" 10="C8" 11="S8" 12="C7" 13="S7" 14="C6" 15="S6" 16="C5" 17="S5" 18="C4" 19="S4" 20="C3" 21="S3" 22="C2" 23="S2" 24="C1" 25="S1" 26="C0" 27="GPIO1" 28="GPIO2" 29="GPIO3" 30="V-_1" 31="V-_2" 32="GPIO4" 33="GPIO5" 34="VREF2" 35="VREF1" 36="DTEN" 37="VREG" 38="DRIVE" 39="WDT" 40="ISOMD" 41="CSB (IMA)" 42="SCK (IPA" 43="SDI (NC)" 44="SDO (NC)" 45="IBIAS" 46="ICMP" 47="IMB" 48="IPB"
+*MXP 48
+*DFN LTC6811-1
+~!Manufacturer_Name (Linear Technology)
+~!Manufacturer_Part_Number (LTC6811-1)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (http://cds.linear.com/docs/en/datasheet/68111fb.pdf)
+~!Height (2mm)
+~!3D_Model (LTC6811-1)
+LTC6811-1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 48.1!U 47.1!U 46.1!U 45.1!U 44.1!U 43.1!U 42.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 

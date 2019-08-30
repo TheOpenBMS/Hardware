@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LTC6810HG_2#3ZZPBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Linear Technology", "LTC6810HG-2#3ZZPBF" (!) = "", "SOP50P780X200-44N", "Small Outline Packages", "584-6810HG23ZZPBF", "https://www.mouser.com/Search/Refine.aspx?Keyword=584-6810HG23ZZPBF", "", "", "Battery Management 6-Channel High Volt Battery Stack Mon", "http://www.analog.com/media/en/technical-documentation/data-sheets/LTC6810-1-6810-2.pdf", "2 mm"
+END_PART
+
+END.

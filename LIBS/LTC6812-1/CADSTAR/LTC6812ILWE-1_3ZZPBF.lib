@@ -1,0 +1,19 @@
+.LTC6812ILWE-1_3ZZPBF :1 ;Battery Management Multicell Bat Mon s
+QFP50P1200X1200X160-65N
+*STM IC
+*NGS
+*PLB 1="V+" 2="NC_1" 3="NC_2" 4="C15" 5="S15" 6="C14" 7="S14" 8="C13" 9="S13" 10="C12" 11="S12" 12="C11" 13="S11" 14="NC_3" 15="NC_4" 16="C10" 17="S10" 18="C9" 19="S9" 20="C8" 21="S8" 22="C7" 23="S7" 24="C6" 25="S6" 26="NC_5" 27="NC_6" 28="C5" 29="S5" 30="C4" 31="S4" 32="C3" 33="S3" 34="C2" 35="S2" 36="C1" 37="S1" 38="C0" 39="GPIO1" 40="GPIO2" 41="GPIO3" 42="GPIO4" 43="GPIO5" 44="GPIO6" 45="GPIO7" 46="GPIO8" 47="GPIO9" 48="VREG" 49="DRIVE" 50="VREF2" &
+51="VREF1" 52="DTEN" 53="SDI (NC)" 54="SDO (NC)" 55="ISOMD" 56="WDT" 57="IBIAS" 58="ICMP" 59="V-_1" 60="V-_2" 61="CSB (IMA)" 62="SCK (IPA)" 63="IMB" 64="IPB" 65="V-_3"
+*MXP 65
+*DFN LTC6812ILWE-1_3ZZPBF
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (LTC6812ILWE-1#3ZZPBF)
+~!Mouser Part Number (584-6812ILWE-13ZZPBF)
+~!Mouser Price/Stock (-)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6812-1.pdf)
+~!Height (1.6mm)
+~!3D_Model (LTC6812ILWE-1#3ZZPBF)
+LTC6812ILWE-1_3ZZPBF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 29.1!U 30.1!U 31.1!U 32.1!U 48.1!U 47.1!U 46.1!U 45.1!U 44.1!U 43.1!U 42.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 33.1!U 65.1!U 64.1!U 63.1!U 62.1!U 61.1!U 60.1!U 59.1!U 58.1!U 57.1!U 56.1!U 55.1!U 54.1!U 53.1!U 52.1!U 51.1!U 50.1!U 49.1!U 

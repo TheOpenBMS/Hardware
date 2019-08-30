@@ -1,0 +1,17 @@
+.LTC6813ILWE-1_3ZZPBF :1 ;Battery Management 18 Channel Multicell Battery Stack Monitor with Addressable isoSPI Interface
+QFP50P1200X1200X160-65N
+*STM IC
+*NGS
+*PLB 1="V+" 2="C18" 3="S18" 4="C17" 5="S17" 6="C16" 7="S16" 8="C15" 9="S15" 10="C14" 11="S14" 12="C13" 13="S13" 14="C12" 15="S12" 16="C11" 17="S11" 18="C10" 19="S10" 20="C9" 21="S9" 22="C8" 23="S8" 24="C7" 25="S7" 26="C6" 27="S6" 28="C5" 29="S5" 30="C4" 31="S4" 32="C3" 33="S3" 34="C2" 35="S2" 36="C1" 37="S1" 38="C0" 39="GPIO1" 40="GPIO2" 41="GPIO3" 42="GPIO4" 43="GPIO5" 44="GPIO6" 45="GPIO7" 46="GPIO8" 47="GPIO9" 48="VREG" 49="DRIVE" 50="VREF2" 51="VREF1" &
+52="DTEN" 53="SDI (NC)" 54="SDO (NC)" 55="ISOMD" 56="WDT" 57="IBIAS" 58="ICMP" 59="V-_1" 60="V-_2" 61="CSB (IMA)" 62="SCK (IPA)" 63="IMB" 64="IPB" 65="EPAD"
+*MXP 65
+*DFN LTC6813ILWE-1_3ZZPBF
+~!Mouser Part Number (584-6813ILWE13ZZPBF)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=584-6813ILWE13ZZPBF)
+~!Manufacturer_Name (Linear Technology)
+~!Manufacturer_Part_Number (LTC6813ILWE-1#3ZZPBF)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/LTC6813ILWE-1#3ZZPBF.pdf)
+~!Height (1.6mm)
+~!3D_Model (LTC6813ILWE-1#3ZZPBF)
+LTC6813ILWE-1_3ZZPBF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 29.1!U 30.1!U 31.1!U 32.1!U 48.1!U 47.1!U 46.1!U 45.1!U 44.1!U 43.1!U 42.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 33.1!U 65.1!U 64.1!U 63.1!U 62.1!U 61.1!U 60.1!U 59.1!U 58.1!U 57.1!U 56.1!U 55.1!U 54.1!U 53.1!U 52.1!U 51.1!U 50.1!U 49.1!U 

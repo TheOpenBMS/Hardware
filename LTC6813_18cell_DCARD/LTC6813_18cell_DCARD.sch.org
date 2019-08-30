@@ -1,0 +1,962 @@
+EESchema Schematic File Version 4
+LIBS:LTC6813_18cell_DCARD-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 20
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LTC6813_1:LTC6813ILWE-1#3ZZPBF IC?
+U 1 1 5D169FB7
+P 7700 3050
+AR Path="/5D169FB7" Ref="IC?"  Part="1" 
+AR Path="/5D1664F1/5D169FB7" Ref="IC?"  Part="1" 
+F 0 "IC?" H 9600 1100 50  0000 L CNN
+F 1 "LTC6813ILWE-1#3ZZPBF" H 8300 3100 50  0000 L CNN
+F 2 "Package_QFP:LQFP-64-1EP_10x10mm_P0.5mm_EP6.5x6.5mm" H 9750 3750 50  0001 L CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6813-1.pdf" H 9750 3650 50  0001 L CNN
+F 4 "Battery Management 18 Channel Multicell Battery Stack Monitor with Addressable isoSPI Interface" H 9750 3550 50  0001 L CNN "Description"
+F 5 "1.6" H 9750 3450 50  0001 L CNN "Height"
+F 6 "584-6813ILWE13ZZPBF" H 9750 3350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=584-6813ILWE13ZZPBF" H 9750 3250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Linear Technology" H 9750 3150 50  0001 L CNN "Manufacturer_Name"
+F 9 "LTC6813ILWE-1#3ZZPBF" H 9750 3050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7700 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7700 3150 0    50   Input ~ 0
+C18
+Text GLabel 7700 3250 0    50   Input ~ 0
+S18
+Text GLabel 7700 3350 0    50   Input ~ 0
+C17
+Text GLabel 7700 3450 0    50   Input ~ 0
+S17
+Text GLabel 7700 3550 0    50   Input ~ 0
+C16
+Text GLabel 7700 3650 0    50   Input ~ 0
+S16
+Text GLabel 7700 3750 0    50   Input ~ 0
+C15
+Text GLabel 7700 3850 0    50   Input ~ 0
+S15
+Text GLabel 7700 3950 0    50   Input ~ 0
+C14
+Text GLabel 7700 4050 0    50   Input ~ 0
+S14
+Text GLabel 7700 4150 0    50   Input ~ 0
+C13
+Text GLabel 7700 4250 0    50   Input ~ 0
+S13
+Text GLabel 7700 4350 0    50   Input ~ 0
+C12
+Text GLabel 7700 4450 0    50   Input ~ 0
+S12
+Text GLabel 7700 4550 0    50   Input ~ 0
+C11
+Text GLabel 8000 5150 3    50   Input ~ 0
+S11
+Text GLabel 8100 5150 3    50   Input ~ 0
+C10
+Text GLabel 8200 5150 3    50   Input ~ 0
+S10
+Text GLabel 8300 5150 3    50   Input ~ 0
+C9
+Text GLabel 8400 5150 3    50   Input ~ 0
+S9
+Text GLabel 8500 5150 3    50   Input ~ 0
+C8
+Text GLabel 8600 5150 3    50   Input ~ 0
+S8
+Text GLabel 8700 5150 3    50   Input ~ 0
+C7
+Text GLabel 8800 5150 3    50   Input ~ 0
+S7
+Text GLabel 8900 5150 3    50   Input ~ 0
+C6
+Text GLabel 9000 5150 3    50   Input ~ 0
+S6
+Text GLabel 9100 5150 3    50   Input ~ 0
+C5
+Text GLabel 9200 5150 3    50   Input ~ 0
+S5
+Text GLabel 9500 5150 3    50   Input ~ 0
+C3
+Text GLabel 9900 4550 2    50   Input ~ 0
+S3
+Text GLabel 9300 5150 3    50   Input ~ 0
+C4
+Text GLabel 9400 5150 3    50   Input ~ 0
+S4
+Text GLabel 9900 4450 2    50   Input ~ 0
+C2
+Text GLabel 9900 4350 2    50   Input ~ 0
+S2
+Text GLabel 9900 4250 2    50   Input ~ 0
+C1
+Text GLabel 9900 4150 2    50   Input ~ 0
+S1
+Text GLabel 9900 4050 2    50   Input ~ 0
+C0
+Text GLabel 9900 3950 2    50   BiDi ~ 0
+GPIO1
+Text GLabel 9900 3850 2    50   BiDi ~ 0
+GPIO2
+Text GLabel 9900 3750 2    50   BiDi ~ 0
+GPIO3
+Text GLabel 9900 3650 2    50   BiDi ~ 0
+GPIO4
+Text GLabel 9900 3550 2    50   BiDi ~ 0
+GPIO5
+Text GLabel 9900 3450 2    50   BiDi ~ 0
+GPIO6
+Text GLabel 9900 3350 2    50   BiDi ~ 0
+GPIO7
+Text GLabel 9900 3250 2    50   BiDi ~ 0
+GPIO8
+Text GLabel 9900 3150 2    50   BiDi ~ 0
+GPIO9
+Text GLabel 9900 3050 2    50   BiDi ~ 0
+VREG
+Text GLabel 9600 2150 1    50   BiDi ~ 0
+DRIVE
+Text GLabel 9500 2150 1    50   BiDi ~ 0
+VREF2
+Text GLabel 9400 2150 1    50   BiDi ~ 0
+VREF1
+Text GLabel 9300 2150 1    50   BiDi ~ 0
+DTEN
+Text GLabel 9200 2150 1    39   BiDi ~ 0
+~SDI
+Text GLabel 9100 2150 1    39   BiDi ~ 0
+~SDO
+Text GLabel 8900 2150 1    50   BiDi ~ 0
+WDT
+Text GLabel 9000 2150 1    50   BiDi ~ 0
+ISOMD
+Text GLabel 8300 2150 1    39   BiDi ~ 0
+~SCLK
+Text GLabel 8400 2150 1    39   BiDi ~ 0
+~CSB
+Text GLabel 8800 2150 1    50   BiDi ~ 0
+IBIAS
+Text GLabel 8700 2150 1    50   BiDi ~ 0
+ICMP
+Text GLabel 8200 2150 1    50   BiDi ~ 0
+IMB
+Text GLabel 8100 2150 1    50   BiDi ~ 0
+IPB
+$Comp
+L Connector_Generic:Conn_02x16_Odd_Even J?
+U 1 1 5D16A186
+P 2750 2550
+AR Path="/5D16A186" Ref="J?"  Part="1" 
+AR Path="/5D1664F1/5D16A186" Ref="J?"  Part="1" 
+F 0 "J?" H 2800 3467 50  0000 C CNN
+F 1 "Conn_02x16_Counter_Clockwise" H 2800 3376 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical_SMD" H 2750 2550 50  0001 C CNN
+F 3 "~" H 2750 2550 50  0001 C CNN
+	1    2750 2550
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 4600 2550 1000 4000
+U 5D16A19D
+F0 "Cell Balancing 1-18" 50
+F1 "Balancer_18cell.sch" 50
+F2 "C0" B R 5600 6450 50 
+F3 "S1" I R 5600 4450 50 
+F4 "C1" B R 5600 6350 50 
+F5 "S2" I R 5600 4350 50 
+F6 "C2" I R 5600 6250 50 
+F7 "S3" I R 5600 4250 50 
+F8 "C3" I R 5600 6150 50 
+F9 "S4" I R 5600 4150 50 
+F10 "C4" I R 5600 6050 50 
+F11 "S5" I R 5600 4050 50 
+F12 "C5" I R 5600 5950 50 
+F13 "S6" I R 5600 3950 50 
+F14 "C6" I R 5600 5850 50 
+F15 "C6_in" B L 4600 5850 50 
+F16 "C5_in" B L 4600 5950 50 
+F17 "C4_in" B L 4600 6050 50 
+F18 "C3_in" B L 4600 6150 50 
+F19 "C2_in" B L 4600 6250 50 
+F20 "C1_in" B L 4600 6350 50 
+F21 "C0_in" B L 4600 6450 50 
+F22 "S7" I R 5600 3850 50 
+F23 "C7" B R 5600 5750 50 
+F24 "S8" I R 5600 3750 50 
+F25 "C8" I R 5600 5650 50 
+F26 "S9" I R 5600 3650 50 
+F27 "C9" I R 5600 5550 50 
+F28 "S10" I R 5600 3550 50 
+F29 "C10" I R 5600 5450 50 
+F30 "S11" I R 5600 3450 50 
+F31 "C11" I R 5600 5350 50 
+F32 "S12" I R 5600 3350 50 
+F33 "C12" I R 5600 5250 50 
+F34 "C12_in" B L 4600 4850 50 
+F35 "C11_in" B L 4600 4950 50 
+F36 "C10_in" B L 4600 5050 50 
+F37 "C9_in" B L 4600 5550 50 
+F38 "C8_in" B L 4600 5650 50 
+F39 "C7_in" B L 4600 5750 50 
+F40 "S13" I R 5600 3250 50 
+F41 "C13" B R 5600 5150 50 
+F42 "S14" I R 5600 3150 50 
+F43 "C14" I R 5600 5050 50 
+F44 "S15" I R 5600 3050 50 
+F45 "C15" I R 5600 4950 50 
+F46 "S16" I R 5600 2950 50 
+F47 "C16" I R 5600 4850 50 
+F48 "S17" I R 5600 2850 50 
+F49 "C17" I R 5600 4750 50 
+F50 "S18" I R 5600 2750 50 
+F51 "C18" I R 5600 4650 50 
+F52 "C18_in" B L 4600 4250 50 
+F53 "C17_in" B L 4600 4350 50 
+F54 "C16_in" B L 4600 4450 50 
+F55 "C15_in" B L 4600 4550 50 
+F56 "C14_in" B L 4600 4650 50 
+F57 "C13_in" B L 4600 4750 50 
+$EndSheet
+Text GLabel 5600 4250 2    50   Input ~ 0
+S3
+Text GLabel 5600 6250 2    50   Input ~ 0
+C2
+Text GLabel 5600 4350 2    50   Input ~ 0
+S2
+Text GLabel 5600 6350 2    50   Input ~ 0
+C1
+Text GLabel 5600 4450 2    50   Input ~ 0
+S1
+Text GLabel 5600 3450 2    50   Input ~ 0
+S11
+Text GLabel 5600 5450 2    50   Input ~ 0
+C10
+Text GLabel 5600 3550 2    50   Input ~ 0
+S10
+Text GLabel 5600 5550 2    50   Input ~ 0
+C9
+Text GLabel 5600 3650 2    50   Input ~ 0
+S9
+Text GLabel 5600 5650 2    50   Input ~ 0
+C8
+Text GLabel 5600 3750 2    50   Input ~ 0
+S8
+Text GLabel 5600 5750 2    50   Input ~ 0
+C7
+Text GLabel 5600 3850 2    50   Input ~ 0
+S7
+Text GLabel 5600 5850 2    50   Input ~ 0
+C6
+Text GLabel 5600 3950 2    50   Input ~ 0
+S6
+Text GLabel 5600 5950 2    50   Input ~ 0
+C5
+Text GLabel 5600 4050 2    50   Input ~ 0
+S5
+Text GLabel 5600 6150 2    50   Input ~ 0
+C3
+Text GLabel 5600 6050 2    50   Input ~ 0
+C4
+Text GLabel 5600 4150 2    50   Input ~ 0
+S4
+Text GLabel 5600 4650 2    50   Input ~ 0
+C18
+Text GLabel 5600 2750 2    50   Input ~ 0
+S18
+Text GLabel 5600 4750 2    50   Input ~ 0
+C17
+Text GLabel 5600 2850 2    50   Input ~ 0
+S17
+Text GLabel 5600 4850 2    50   Input ~ 0
+C16
+Text GLabel 5600 2950 2    50   Input ~ 0
+S16
+Text GLabel 5600 4950 2    50   Input ~ 0
+C15
+Text GLabel 5600 3050 2    50   Input ~ 0
+S15
+Text GLabel 5600 5050 2    50   Input ~ 0
+C14
+Text GLabel 5600 3150 2    50   Input ~ 0
+S14
+Text GLabel 5600 5150 2    50   Input ~ 0
+C13
+Text GLabel 5600 3250 2    50   Input ~ 0
+S13
+Text GLabel 5600 5250 2    50   Input ~ 0
+C12
+Text GLabel 5600 3350 2    50   Input ~ 0
+S12
+Text GLabel 5600 5350 2    50   Input ~ 0
+C11
+Text GLabel 2550 3350 0    50   BiDi ~ 0
+GPIO1
+Text GLabel 3050 3350 2    50   BiDi ~ 0
+GPIO2
+Text GLabel 2550 3250 0    50   BiDi ~ 0
+GPIO3
+Text GLabel 3050 3250 2    50   BiDi ~ 0
+GPIO4
+Text GLabel 2550 3150 0    50   BiDi ~ 0
+GPIO5
+Text GLabel 3050 3150 2    50   BiDi ~ 0
+GPIO6
+Text GLabel 2550 3050 0    50   BiDi ~ 0
+GPIO7
+Text GLabel 3050 3050 2    50   BiDi ~ 0
+GPIO8
+Text GLabel 2550 2950 0    50   BiDi ~ 0
+GPIO9
+Text GLabel 3050 2950 2    50   BiDi ~ 0
+VREG
+Text GLabel 2550 2850 0    50   BiDi ~ 0
+DRIVE
+Text GLabel 3050 2850 2    50   BiDi ~ 0
+VREF2
+Text GLabel 2550 2750 0    50   BiDi ~ 0
+VREF1
+Text GLabel 3050 2750 2    50   BiDi ~ 0
+DTEN
+Text GLabel 2550 2550 0    39   BiDi ~ 0
+~SDI
+Text GLabel 3050 2550 2    39   BiDi ~ 0
+~SDO
+Text GLabel 3050 2350 2    50   BiDi ~ 0
+WDT
+Text GLabel 2550 2350 0    50   BiDi ~ 0
+ISOMD
+Text GLabel 3050 2050 2    39   BiDi ~ 0
+~SCLK
+Text GLabel 2550 2050 0    39   BiDi ~ 0
+~CSB
+Text GLabel 2550 2250 0    50   BiDi ~ 0
+IBIAS
+Text GLabel 3050 2250 2    50   BiDi ~ 0
+ICMP
+Text GLabel 2550 1950 0    50   BiDi ~ 0
+IMB
+Text GLabel 3050 1950 2    50   BiDi ~ 0
+IPB
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 5D16A216
+P 3650 6050
+AR Path="/5D16A216" Ref="J?"  Part="1" 
+AR Path="/5D1664F1/5D16A216" Ref="J?"  Part="1" 
+F 0 "J?" H 3650 5450 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" V 3750 6050 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_10-GF-3.5_1x10_P3.50mm_Horizontal_ThreadedFlange_MountHole" H 3650 6050 50  0001 C CNN
+F 3 "~" H 3650 6050 50  0001 C CNN
+	1    3650 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 5850 4600 5850
+Wire Wire Line
+	3850 5950 4600 5950
+Wire Wire Line
+	4600 6050 3850 6050
+Wire Wire Line
+	3850 6150 4600 6150
+Wire Wire Line
+	4600 6250 3850 6250
+Wire Wire Line
+	3850 6350 4600 6350
+Wire Wire Line
+	4600 6450 4500 6450
+Wire Wire Line
+	3850 4850 4600 4850
+Wire Wire Line
+	3850 4950 4600 4950
+Wire Wire Line
+	4600 5050 3850 5050
+Wire Wire Line
+	3850 5550 4600 5550
+Wire Wire Line
+	4600 5650 3850 5650
+Wire Wire Line
+	3850 5750 4600 5750
+Wire Wire Line
+	3850 4250 4600 4250
+Wire Wire Line
+	3850 4350 4600 4350
+Wire Wire Line
+	4600 4450 3850 4450
+Wire Wire Line
+	3850 4550 4600 4550
+Wire Wire Line
+	4600 4650 3850 4650
+Wire Wire Line
+	3850 4750 4600 4750
+$Comp
+L power:GND #PWR?
+U 1 1 5D16A26C
+P 4500 6450
+AR Path="/5D16A26C" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D16A26C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4500 6200 50  0001 C CNN
+F 1 "GND" H 4505 6277 50  0000 C CNN
+F 2 "" H 4500 6450 50  0001 C CNN
+F 3 "" H 4500 6450 50  0001 C CNN
+	1    4500 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 6450 5600 6450
+$Comp
+L power:GND #PWR?
+U 1 1 5D16A273
+P 3050 2450
+AR Path="/5D16A273" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D16A273" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3050 2200 50  0001 C CNN
+F 1 "GND" V 3055 2322 50  0000 R CNN
+F 2 "" H 3050 2450 50  0001 C CNN
+F 3 "" H 3050 2450 50  0001 C CNN
+	1    3050 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D16A279
+P 3050 2150
+AR Path="/5D16A279" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D16A279" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3050 1900 50  0001 C CNN
+F 1 "GND" V 3055 2022 50  0000 R CNN
+F 2 "" H 3050 2150 50  0001 C CNN
+F 3 "" H 3050 2150 50  0001 C CNN
+	1    3050 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D16A27F
+P 3050 1850
+AR Path="/5D16A27F" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D16A27F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3050 1600 50  0001 C CNN
+F 1 "GND" V 3055 1722 50  0000 R CNN
+F 2 "" H 3050 1850 50  0001 C CNN
+F 3 "" H 3050 1850 50  0001 C CNN
+	1    3050 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D16A285
+P 3050 2650
+AR Path="/5D16A285" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D16A285" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3050 2400 50  0001 C CNN
+F 1 "GND" V 3055 2522 50  0000 R CNN
+F 2 "" H 3050 2650 50  0001 C CNN
+F 3 "" H 3050 2650 50  0001 C CNN
+	1    3050 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D16A28B
+P 2550 2650
+AR Path="/5D16A28B" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D16A28B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2550 2400 50  0001 C CNN
+F 1 "GND" V 2555 2522 50  0000 R CNN
+F 2 "" H 2550 2650 50  0001 C CNN
+F 3 "" H 2550 2650 50  0001 C CNN
+	1    2550 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D16A291
+P 2550 2450
+AR Path="/5D16A291" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D16A291" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2550 2200 50  0001 C CNN
+F 1 "GND" V 2555 2322 50  0000 R CNN
+F 2 "" H 2550 2450 50  0001 C CNN
+F 3 "" H 2550 2450 50  0001 C CNN
+	1    2550 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D16A297
+P 2550 1850
+AR Path="/5D16A297" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D16A297" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2550 1600 50  0001 C CNN
+F 1 "GND" V 2555 1722 50  0000 R CNN
+F 2 "" H 2550 1850 50  0001 C CNN
+F 3 "" H 2550 1850 50  0001 C CNN
+	1    2550 1850
+	0    1    1    0   
+$EndComp
+Text GLabel 5900 6450 2    50   Input ~ 0
+C0
+$Comp
+L Device:R R?
+U 1 1 5D19365E
+P 5350 6900
+AR Path="/5D167BBA/5D19365E" Ref="R?"  Part="1" 
+AR Path="/5D1664F1/5D19365E" Ref="R?"  Part="1" 
+AR Path="/5D19365E" Ref="R?"  Part="1" 
+F 0 "R?" V 5143 6900 50  0000 C CNN
+F 1 "100" V 5234 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5280 6900 50  0001 C CNN
+F 3 "~" H 5350 6900 50  0001 C CNN
+	1    5350 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D193665
+P 5700 7050
+AR Path="/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D599D/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5F51/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5F58/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5F5F/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5F66/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5F6D/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5F74/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5F7B/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5F82/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5F89/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5F90/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5F97/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5F9E/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5FA5/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5FAC/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5FB3/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5FBA/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5FC1/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D0D5F2A/5D0D5FC8/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D159C5E/5D0D5FA5/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D159C5E/5D0D5FAC/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D159C5E/5D0D5FB3/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D159C5E/5D0D5FBA/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D159C5E/5D0D5FC1/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D159C5E/5D0D5FC8/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D159C84/5D0D5FA5/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D159C84/5D0D5FAC/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D159C84/5D0D5FB3/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D159C84/5D0D5FBA/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D159C84/5D0D5FC1/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D159C84/5D0D5FC8/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A19D/5D0D5FA5/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A19D/5D0D5FAC/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A19D/5D0D5FB3/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A19D/5D0D5FBA/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A19D/5D0D5FC1/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A19D/5D0D5FC8/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A1B3/5D0D5FA5/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A1B3/5D0D5FAC/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A1B3/5D0D5FB3/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A1B3/5D0D5FBA/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A1B3/5D0D5FC1/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A1B3/5D0D5FC8/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A1C9/5D0D5FA5/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A1C9/5D0D5FAC/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A1C9/5D0D5FB3/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A1C9/5D0D5FBA/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A1C9/5D0D5FC1/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D16A1C9/5D0D5FC8/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5CD/5D0D5FA5/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5CD/5D0D5FAC/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5CD/5D0D5FB3/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5CD/5D0D5FBA/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5CD/5D0D5FC1/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5CD/5D0D5FC8/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5E3/5D0D5FA5/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5E3/5D0D5FAC/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5E3/5D0D5FB3/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5E3/5D0D5FBA/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5E3/5D0D5FC1/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5E3/5D0D5FC8/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5F9/5D0D5FA5/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5F9/5D0D5FAC/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5F9/5D0D5FB3/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5F9/5D0D5FBA/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5F9/5D0D5FC1/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16C5F9/5D0D5FC8/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16FA43/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16FA4A/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D16705C/5D16FA51/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180ECB/5D0D5FA5/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180ECB/5D0D5FAC/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180ECB/5D0D5FB3/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180ECB/5D0D5FBA/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180ECB/5D0D5FC1/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180ECB/5D0D5FC8/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180EE1/5D0D5FA5/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180EE1/5D0D5FAC/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180EE1/5D0D5FB3/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180EE1/5D0D5FBA/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180EE1/5D0D5FC1/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180EE1/5D0D5FC8/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180FA0/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180FA7/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D180FAE/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBC/5D1834B6/5D0D5FA5/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBC/5D1834B6/5D0D5FAC/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBC/5D1834B6/5D0D5FB3/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBC/5D1834B6/5D0D5FBA/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBC/5D1834B6/5D0D5FC1/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBC/5D1834B6/5D0D5FC8/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBC/5D1834CC/5D0D5FA5/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBC/5D1834CC/5D0D5FAC/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBC/5D1834CC/5D0D5FB3/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBC/5D1834CC/5D0D5FBA/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBC/5D1834CC/5D0D5FC1/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBC/5D1834CC/5D0D5FC8/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D167BBA/5D193665" Ref="C?"  Part="1" 
+AR Path="/5D1664F1/5D193665" Ref="C?"  Part="1" 
+F 0 "C?" H 5815 7096 50  0000 L CNN
+F 1 "100n" H 5815 7005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5738 6900 50  0001 C CNN
+F 3 "~" H 5700 7050 50  0001 C CNN
+	1    5700 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener_ALT D?
+U 1 1 5D19366C
+P 6150 7050
+AR Path="/5D167BBA/5D180EE1/5D0D5FC8/5D19366C" Ref="D?"  Part="1" 
+AR Path="/5D167BBA/5D180ECB/5D0D5FC8/5D19366C" Ref="D?"  Part="1" 
+AR Path="/5D167BBA/5D19366C" Ref="D?"  Part="1" 
+AR Path="/5D1664F1/5D19366C" Ref="D?"  Part="1" 
+AR Path="/5D19366C" Ref="D?"  Part="1" 
+F 0 "D?" V 6104 7129 50  0000 L CNN
+F 1 "D_Zener_ALT" V 6195 7129 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 6150 7050 50  0001 C CNN
+F 3 "~" H 6150 7050 50  0001 C CNN
+	1    6150 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D193673
+P 5100 7200
+AR Path="/5D193673" Ref="#PWR?"  Part="1" 
+AR Path="/5D16705C/5D193673" Ref="#PWR?"  Part="1" 
+AR Path="/5D167BBA/5D193673" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D193673" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5100 6950 50  0001 C CNN
+F 1 "GND" H 5105 7027 50  0000 C CNN
+F 2 "" H 5100 7200 50  0001 C CNN
+F 3 "" H 5100 7200 50  0001 C CNN
+	1    5100 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 7200 5100 6900
+Wire Wire Line
+	5100 6900 5200 6900
+Wire Wire Line
+	5500 6900 5700 6900
+Wire Wire Line
+	5700 6900 6150 6900
+Connection ~ 5700 6900
+$Comp
+L power:GND #PWR?
+U 1 1 5D19367E
+P 5700 7200
+AR Path="/5D19367E" Ref="#PWR?"  Part="1" 
+AR Path="/5D16705C/5D19367E" Ref="#PWR?"  Part="1" 
+AR Path="/5D167BBA/5D19367E" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D19367E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5700 6950 50  0001 C CNN
+F 1 "GND" H 5705 7027 50  0000 C CNN
+F 2 "" H 5700 7200 50  0001 C CNN
+F 3 "" H 5700 7200 50  0001 C CNN
+	1    5700 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D193684
+P 6150 7200
+AR Path="/5D193684" Ref="#PWR?"  Part="1" 
+AR Path="/5D16705C/5D193684" Ref="#PWR?"  Part="1" 
+AR Path="/5D167BBA/5D193684" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D193684" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6150 6950 50  0001 C CNN
+F 1 "GND" H 6155 7027 50  0000 C CNN
+F 2 "" H 6150 7200 50  0001 C CNN
+F 3 "" H 6150 7200 50  0001 C CNN
+	1    6150 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 6900 5700 6450
+Wire Wire Line
+	5900 6450 5700 6450
+Connection ~ 5700 6450
+$Comp
+L power:GND #PWR?
+U 1 1 5D194F4D
+P 8600 2150
+F 0 "#PWR?" H 8600 1900 50  0001 C CNN
+F 1 "GND" V 8600 1950 50  0000 C CNN
+F 2 "" H 8600 2150 50  0001 C CNN
+F 3 "" H 8600 2150 50  0001 C CNN
+	1    8600 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D194F99
+P 8500 2150
+F 0 "#PWR?" H 8500 1900 50  0001 C CNN
+F 1 "GND" V 8500 1950 50  0000 C CNN
+F 2 "" H 8500 2150 50  0001 C CNN
+F 3 "" H 8500 2150 50  0001 C CNN
+	1    8500 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D194FB0
+P 8000 2150
+F 0 "#PWR?" H 8000 1900 50  0001 C CNN
+F 1 "GND" V 8000 1950 50  0000 C CNN
+F 2 "" H 8000 2150 50  0001 C CNN
+F 3 "" H 8000 2150 50  0001 C CNN
+	1    8000 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D195086
+P 7100 3050
+AR Path="/5D167BBA/5D195086" Ref="R?"  Part="1" 
+AR Path="/5D1664F1/5D195086" Ref="R?"  Part="1" 
+AR Path="/5D195086" Ref="R?"  Part="1" 
+F 0 "R?" V 6893 3050 50  0000 C CNN
+F 1 "100" V 6984 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7030 3050 50  0001 C CNN
+F 3 "~" H 7100 3050 50  0001 C CNN
+	1    7100 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 3050 7700 3050
+Text GLabel 6950 3050 0    50   BiDi ~ 0
+C18_in
+$Comp
+L power:GND #PWR?
+U 1 1 5D1962BF
+P 2550 2150
+AR Path="/5D1962BF" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D1962BF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2550 1900 50  0001 C CNN
+F 1 "GND" V 2555 2022 50  0000 R CNN
+F 2 "" H 2550 2150 50  0001 C CNN
+F 3 "" H 2550 2150 50  0001 C CNN
+	1    2550 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D19DA64
+P 8800 6000
+F 0 "#PWR?" H 8800 5750 50  0001 C CNN
+F 1 "GND" H 8805 5827 50  0000 C CNN
+F 2 "" H 8800 6000 50  0001 C CNN
+F 3 "" H 8800 6000 50  0001 C CNN
+	1    8800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5D19DAA2
+P 8800 6000
+F 0 "#FLG?" H 8800 6075 50  0001 C CNN
+F 1 "PWR_FLAG" H 8800 6174 50  0000 C CNN
+F 2 "" H 8800 6000 50  0001 C CNN
+F 3 "~" H 8800 6000 50  0001 C CNN
+	1    8800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 5D4C51B2
+P 3650 4750
+AR Path="/5D4C51B2" Ref="J?"  Part="1" 
+AR Path="/5D1664F1/5D4C51B2" Ref="J?"  Part="1" 
+F 0 "J?" H 3650 4150 50  0000 C CNN
+F 1 "Conn_02x10_Counter_Clockwise" V 3750 4750 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_10-GF-3.5_1x10_P3.50mm_Horizontal_ThreadedFlange_MountHole" H 3650 4750 50  0001 C CNN
+F 3 "~" H 3650 4750 50  0001 C CNN
+	1    3650 4750
+	-1   0    0    1   
+$EndComp
+Text Label 4100 6350 0    50   ~ 0
+C1_in
+Text Label 4100 6250 0    50   ~ 0
+C2_in
+Text Label 4100 6150 0    50   ~ 0
+C3_in
+Text Label 4100 6050 0    50   ~ 0
+C4_in
+Text Label 4100 5950 0    50   ~ 0
+C5_in
+Text Label 4100 5850 0    50   ~ 0
+C6_in
+Text Label 4100 5750 0    50   ~ 0
+C7_in
+Text Label 4100 5650 0    50   ~ 0
+C8_in
+Text Label 4100 5550 0    50   ~ 0
+C9_in
+Text Label 4100 5050 0    50   ~ 0
+C10_in
+Text Label 4100 4950 0    50   ~ 0
+C11_in
+Text Label 4100 4850 0    50   ~ 0
+C12_in
+Text Label 4100 4750 0    50   ~ 0
+C13_in
+Text Label 4100 4650 0    50   ~ 0
+C14_in
+Text Label 4100 4550 0    50   ~ 0
+C15_in
+Text Label 4100 4450 0    50   ~ 0
+C16_in
+Text Label 4100 4350 0    50   ~ 0
+C17_in
+Text Label 4100 4250 0    50   ~ 0
+C18_in
+$Comp
+L power:GND #PWR?
+U 1 1 5D4C8AF3
+P 3950 6450
+AR Path="/5D4C8AF3" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D4C8AF3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3950 6200 50  0001 C CNN
+F 1 "GND" H 3955 6277 50  0000 C CNN
+F 2 "" H 3950 6450 50  0001 C CNN
+F 3 "" H 3950 6450 50  0001 C CNN
+	1    3950 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4C8B0E
+P 3950 5150
+AR Path="/5D4C8B0E" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D4C8B0E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3950 4900 50  0001 C CNN
+F 1 "GND" H 3955 4977 50  0000 C CNN
+F 2 "" H 3950 5150 50  0001 C CNN
+F 3 "" H 3950 5150 50  0001 C CNN
+	1    3950 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 5150 3950 5150
+Wire Wire Line
+	3950 6450 3850 6450
+$Comp
+L MCU_Module:Arduino_UNO_R3 A?
+U 1 1 5D4C9A8E
+P 2300 5100
+F 0 "A?" H 2300 6278 50  0000 C CNN
+F 1 "Arduino_UNO_R3" H 2300 6187 50  0000 C CNN
+F 2 "Module:Arduino_UNO_R3" H 2450 4050 50  0001 L CNN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 2100 6150 50  0001 C CNN
+	1    2300 5100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2400 4100
+NoConn ~ 2200 4100
+Text GLabel 2800 5800 2    50   BiDi ~ 0
+GPIO4
+Text GLabel 2800 5900 2    50   BiDi ~ 0
+GPIO5
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5D4CE608
+P 3700 1200
+F 0 "J?" H 3620 875 50  0000 C CNN
+F 1 "Conn_01x03" H 3620 966 50  0000 C CNN
+F 2 "" H 3700 1200 50  0001 C CNN
+F 3 "~" H 3700 1200 50  0001 C CNN
+	1    3700 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5D4CE854
+P 3700 1750
+F 0 "J?" H 3620 1425 50  0000 C CNN
+F 1 "Conn_01x03" H 3620 1516 50  0000 C CNN
+F 2 "" H 3700 1750 50  0001 C CNN
+F 3 "~" H 3700 1750 50  0001 C CNN
+	1    3700 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5D4CE890
+P 3700 2300
+F 0 "J?" H 3620 1975 50  0000 C CNN
+F 1 "Conn_01x03" H 3620 2066 50  0000 C CNN
+F 2 "" H 3700 2300 50  0001 C CNN
+F 3 "~" H 3700 2300 50  0001 C CNN
+	1    3700 2300
+	-1   0    0    1   
+$EndComp
+NoConn ~ 1800 4900
+NoConn ~ 1800 5000
+NoConn ~ 1800 5100
+NoConn ~ 1800 5200
+NoConn ~ 1800 5300
+NoConn ~ 1800 5400
+NoConn ~ 1800 5500
+NoConn ~ 2800 5100
+NoConn ~ 2800 4500
+Wire Wire Line
+	2200 6200 2200 6250
+Wire Wire Line
+	2200 6250 2300 6250
+Wire Wire Line
+	2400 6250 2400 6200
+Wire Wire Line
+	2300 6200 2300 6250
+Connection ~ 2300 6250
+Wire Wire Line
+	2300 6250 2400 6250
+Wire Wire Line
+	2300 6250 2300 6300
+$Comp
+L power:GND #PWR?
+U 1 1 5D4D33DF
+P 2300 6250
+AR Path="/5D4D33DF" Ref="#PWR?"  Part="1" 
+AR Path="/5D1664F1/5D4D33DF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 6000 50  0001 C CNN
+F 1 "GND" H 2305 6077 50  0000 C CNN
+F 2 "" H 2300 6250 50  0001 C CNN
+F 3 "" H 2300 6250 50  0001 C CNN
+	1    2300 6250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

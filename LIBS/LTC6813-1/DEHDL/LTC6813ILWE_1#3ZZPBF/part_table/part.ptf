@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LTC6813ILWE_1#3ZZPBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Linear Technology", "LTC6813ILWE-1#3ZZPBF" (!) = "", "QFP50P1200X1200X160-65N", "Quad Flat Packages", "584-6813ILWE13ZZPBF", "https://www.mouser.com/Search/Refine.aspx?Keyword=584-6813ILWE13ZZPBF", "Battery Management 18 Channel Multicell Battery Stack Monitor with Addressable isoSPI Interface", "https://componentsearchengine.com/Datasheets/1/LTC6813ILWE-1#3ZZPBF.pdf", "1.6 mm"
+END_PART
+
+END.

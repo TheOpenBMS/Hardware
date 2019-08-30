@@ -1,0 +1,9 @@
+14/8/2015 3:38:40 PM
+
+1 3 0 False False True 0.5
+False False False True 22 1 1 0B E3B5
+to access RW/L register: 
+False False False True 13 1 1 02 003B
+to Turn OFF Watchdog : 
+False False False True AC 1 1 0B 0000
+to LOCK RW/L register: 

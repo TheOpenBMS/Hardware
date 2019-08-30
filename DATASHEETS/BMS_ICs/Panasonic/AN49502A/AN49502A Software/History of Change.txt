@@ -1,0 +1,2 @@
+Ver1.01
+1. Fixed a bug that prevent entry of HEX text in Command Sequence Entry Field

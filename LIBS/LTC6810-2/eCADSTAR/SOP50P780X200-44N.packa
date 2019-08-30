@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LTC6810HG-2_3ZZPBF"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-06-09-11:44:38)
+    (mountForm default
+        (footprintRef "SOP50P780X200-44N")
+        (spec "System")
+    )
+)

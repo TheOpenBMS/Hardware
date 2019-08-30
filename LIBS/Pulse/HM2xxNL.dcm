@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HM2102NL
+D Ethernet LAN 10/100 Base-Tx Transformer with Center Taps
+K single port ethernet transformer poe center-tap
+F https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf
+$ENDCMP
+#
+#End Doc Library
