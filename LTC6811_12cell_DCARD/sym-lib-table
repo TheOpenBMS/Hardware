@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name LTC6811-1)(type Legacy)(uri ${KIPRJMOD}/../LIBS/LTC6811-1/KiCad/LTC6811-1.lib)(options "")(descr ""))
+  (lib (name arduino_mega)(type Legacy)(uri ${KIPRJMOD}/../LIBS/Arduino/arduino_mega.lib)(options "")(descr ""))
+  (lib (name HM2xxNL)(type Legacy)(uri ${KIPRJMOD}/../LIBS/Pulse/HM2xxNL.lib)(options "")(descr ""))
+  (lib (name OpenBMS)(type Legacy)(uri ${KIPRJMOD}/../LIBS/OpenBMS.lib)(options "")(descr ""))
+)
