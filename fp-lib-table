@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name OpenBMS)(type KiCad)(uri ${KIPRJMOD}/MODS/OpenBMS.pretty)(options "")(descr ""))
+  (lib (name Misc)(type KiCad)(uri ${KIPRJMOD}/LIBS/Misc)(options "")(descr ""))
+  (lib (name muRata)(type KiCad)(uri ${KIPRJMOD}/LIBS/muRata.pretty)(options "")(descr ""))
   (lib (name LTC6811-1)(type Legacy)(uri ${KIPRJMOD}/LIBS/LTC6811-1/KiCad/LTC6811-1.mod)(options "")(descr ""))
 )
