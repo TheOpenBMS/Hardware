@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/rhowlett/OpenBMS/Hardware/Standalone_Shield/Standalone_Com_Shield.sch</source>
+    <date>Sat 31 Aug 2019 02:55:17 PM MDT</date>
+    <tool>Eeschema 5.1.4-e60b266~84~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Standalone_Com_Shield.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207128-1367682.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207128</field>
+        <field name="Notes">100V, minimum X7R Tolerance, +125C</field>
+        <field name="Price / 1000">0.057</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D524B33</tstamp>
+    </comp>
+    <comp ref="TH1">
+      <value>Thermistor_NTC</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">Murata</field>
+        <field name="Mft #">NCP18XH103F03RB</field>
+        <field name="Notes">100mW, b=3380 K, 1% Tolerance</field>
+        <field name="Price / 1000">0.10</field>
+      </fields>
+      <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D524B4F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207051-555129.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207051</field>
+        <field name="Notes">&gt; 6.3V,  minimum X7R tolerance, +125C</field>
+        <field name="Price / 1000">0.058</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D524BC2</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207051-555129.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207051</field>
+        <field name="Notes">&gt;6.3V, minimum X7R tolerance, +125C</field>
+        <field name="Price / 1000">0.058</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D524BD3</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207051-555129.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207051</field>
+        <field name="Notes">&gt;6.3V, minimum X7R tolerance, +125C</field>
+        <field name="Price / 1000">0.058</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D524BE9</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207051-555129.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207051</field>
+        <field name="Notes">&gt;6.3V, minimum X7R tolerance, +125C</field>
+        <field name="Price / 1000">0.058</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D524BF3</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207128.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207128</field>
+        <field name="Notes">100V, minimum X7R Tolerance, +125C</field>
+        <field name="Price / 1000">0.057</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D524C2A</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>DTEN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D524C48</tstamp>
+    </comp>
+    <comp ref="TR1">
+      <value>HM2102NL</value>
+      <footprint>OpenBMS:HM2102NL</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Magnetics/HM2102NL.pdf</datasheet>
+      <fields>
+        <field name="Mft">Pulse</field>
+        <field name="Mft #">HM2102NLT</field>
+        <field name="Notes">Dual Transformer, 4.3kV, 450uH</field>
+        <field name="Price / 1000">3.12</field>
+      </fields>
+      <libsource lib="Pulse" part="HM2102NL" description="Ethernet LAN 10/100 Base-Tx Transformer with Center Taps"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4FB8E1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D54228B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207039.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207039</field>
+        <field name="Notes">16V, minimum X7R tolerance, +125C</field>
+        <field name="Price / 1000">0.022</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5BB1C0</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Com_H</value>
+      <footprint>Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">Very common connector</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D53CC41</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Com_L</value>
+      <footprint>Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Notes">Very common connector</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D53CE9A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Linduino_Test</value>
+      <footprint>Connector_IDC:IDC-Header_2x07_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D829E49</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>24LC025-I/SN</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/EEPROM/MC_24LC025.pdf</datasheet>
+      <fields>
+        <field name="Mft">Microchip</field>
+        <field name="Mft #">24LC025-T/SN</field>
+        <field name="Notes">!!! - This comes in many packages - !!!</field>
+        <field name="Price / 1000">0.225</field>
+      </fields>
+      <libsource lib="Memory_EEPROM" part="24LC08" description="I2C Serial EEPROM, 8Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D879BD6</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207051-555129.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207051</field>
+        <field name="Notes">&gt;6.3V, minimum X7R tolerance, +125C</field>
+        <field name="Price / 1000">0.058</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8C5417</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207051-555129.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207051</field>
+        <field name="Notes">&gt;6.3V, minimum X7R tolerance, +125C</field>
+        <field name="Price / 1000">0.058</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D524BFD</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>24AA01</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/EEPROM/MC_24AA01.pdf</datasheet>
+      <fields>
+        <field name="Mft">Microchip</field>
+        <field name="Mft #">24AA01T-I/OT</field>
+        <field name="Notes">Note this is a +85C part</field>
+        <field name="Price / 1000">0.162</field>
+      </fields>
+      <libsource lib="Misc" part="24AA01" description="I2C Serial EEPROM, 2Kb, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8E87A4</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207051-555129.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207051</field>
+        <field name="Notes">&gt;6.3V, minimum X7R tolerance, +125C</field>
+        <field name="Price / 1000">0.058</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D934CE1</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207051-555129.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207051</field>
+        <field name="Notes">&gt;6.3V, minimum X7R tolerance, +125C</field>
+        <field name="Price / 1000">0.058</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D934CEB</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207051-555129.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207051</field>
+        <field name="Notes">&gt;6.3V, minimum X7R tolerance, +125C</field>
+        <field name="Price / 1000">0.058</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D934D08</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>MODE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D547E38</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>Debug</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5486EE</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Debug</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D549705</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D556E8B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5572FC</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>51</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5578D2</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D561FAF</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5663E5</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D56AC7B</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D56D58C</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D56D9DE</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D570061</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D571AE2</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D57B27B</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D57B90A</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D57BEF9</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D57CC40</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D57D1BF</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">1% Thick Film Resistor</field>
+        <field name="Price / 1000">0.005</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D57DC09</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Temp6</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">Latching connector JST-PH series</field>
+        <field name="Price / 1000">0.06</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D584EC4</tstamp>
+    </comp>
+    <comp ref="SHD1">
+      <value>OpenBMS_IO</value>
+      <footprint>OpenBMS:OpenBMS_IO</footprint>
+      <libsource lib="OpenBMS" part="OpenBMS_IO" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D69E3D3</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>NSV1C201MZ4</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Transistors/NSS1C201MZ4-D-356308.pdf</datasheet>
+      <libsource lib="Device" part="Q_NPN_BCEC" description="NPN transistor, base/collector/emitter, collector connected to mounting plane"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D524B22</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Temp5</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">Latching connector JST-PH series</field>
+        <field name="Price / 1000">0.06</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D56D262</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Temp4</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">Latching connector JST-PH series</field>
+        <field name="Price / 1000">0.06</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D572BDB</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Temp3</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">Latching connector JST-PH series</field>
+        <field name="Price / 1000">0.06</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5784AF</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Temp2</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">Latching connector JST-PH series</field>
+        <field name="Price / 1000">0.06</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D57DD87</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Temp1</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Mft">GENERIC</field>
+        <field name="Mft #">GENERIC</field>
+        <field name="Notes">Latching connector JST-PH series</field>
+        <field name="Price / 1000">0.06</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5836CD</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207039.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207039</field>
+        <field name="Notes">16V, minimum X7R tolerance, +125C</field>
+        <field name="Price / 1000">0.022</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D58A375</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207039.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207039</field>
+        <field name="Notes">16V, minimum X7R tolerance, +125C</field>
+        <field name="Price / 1000">0.022</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D58A3FD</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>${KIPRJMOD}/../DATASHEETS/Capacitors/885012207039.pdf</datasheet>
+      <fields>
+        <field name="Mft">Wurth</field>
+        <field name="Mft #">885012207039</field>
+        <field name="Notes">16V, minimum X7R tolerance, +125C</field>
+        <field name="Price / 1000">0.022</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D58A801</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x07_Odd_Even">
+      <description>Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BCEC">
+      <description>NPN transistor, base/collector/emitter, collector connected to mounting plane</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BCEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+        <pin num="4" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor_NTC">
+      <description>Temperature dependent resistor, negative temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Bridged12">
+      <description>Jumper, 3-pole, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Bridged12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_EEPROM" part="24LC16">
+      <aliases>
+        <alias>24LC02</alias>
+        <alias>24LC00</alias>
+        <alias>24LC04</alias>
+        <alias>24LC08</alias>
+        <alias>24LC01</alias>
+        <alias>24LC512</alias>
+        <alias>24LC64</alias>
+        <alias>24LC1025</alias>
+        <alias>24LC32</alias>
+        <alias>24LC256</alias>
+        <alias>24LC128</alias>
+        <alias>CAT24C256</alias>
+        <alias>CAT24C128</alias>
+      </aliases>
+      <description>I2C Serial EEPROM, 16Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21703d.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>DFN*3x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">24LC16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Misc" part="24AA01">
+      <description>I2C Serial EEPROM, 2Kb, SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21709J.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">24AA01</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="WD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenBMS" part="OpenBMS_IO">
+      <fields>
+        <field name="Reference">SHD</field>
+        <field name="Value">OpenBMS_IO</field>
+      </fields>
+      <pins>
+        <pin num="Cmax_in" name="Cmax_in" type="passive"/>
+        <pin num="DRIVE" name="DRIVE" type="passive"/>
+        <pin num="DTEN" name="DTEN" type="passive"/>
+        <pin num="GND" name="GND" type="passive"/>
+        <pin num="GPIO1" name="GPIO1" type="passive"/>
+        <pin num="GPIO2" name="GPIO2" type="passive"/>
+        <pin num="GPIO3" name="GPIO3" type="passive"/>
+        <pin num="GPIO4" name="GPIO4" type="passive"/>
+        <pin num="GPIO5" name="GPIO5" type="passive"/>
+        <pin num="GPIO6" name="GPIO6" type="passive"/>
+        <pin num="GPIO7" name="GPIO7" type="passive"/>
+        <pin num="GPIO8" name="GPIO8" type="passive"/>
+        <pin num="GPIO9" name="GPIO9" type="passive"/>
+        <pin num="IHM" name="IHM" type="passive"/>
+        <pin num="IHP" name="IHP" type="passive"/>
+        <pin num="ILM" name="ILM" type="passive"/>
+        <pin num="ILP" name="ILP" type="passive"/>
+        <pin num="ISOMD" name="ISOMD" type="passive"/>
+        <pin num="V+" name="V+" type="passive"/>
+        <pin num="VREF1" name="VREF1" type="passive"/>
+        <pin num="VREF2" name="VREF2" type="passive"/>
+        <pin num="VREG" name="VREG" type="passive"/>
+        <pin num="WDT" name="WDT" type="passive"/>
+        <pin num="~SDI" name="~SDI" type="passive"/>
+        <pin num="~SDO" name="~SDO" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Pulse" part="HM2102NL">
+      <description>Ethernet LAN 10/100 Base-Tx Transformer with Center Taps</description>
+      <docs>https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf</docs>
+      <footprints>
+        <fp>Transformer*Ethernet*Bourns*PT61017PEL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TR</field>
+        <field name="Value">HM2102NL</field>
+        <field name="Footprint">Transformer_SMD:Transformer_Ethernet_Pulse_HM2102NL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TD+" type="passive"/>
+        <pin num="2" name="C_TD" type="passive"/>
+        <pin num="3" name="TD-" type="passive"/>
+        <pin num="4" name="RD+" type="passive"/>
+        <pin num="5" name="C_RD" type="passive"/>
+        <pin num="6" name="RD-" type="passive"/>
+        <pin num="7" name="RX-" type="passive"/>
+        <pin num="8" name="C_RX" type="passive"/>
+        <pin num="9" name="RX+" type="passive"/>
+        <pin num="10" name="TX-" type="passive"/>
+        <pin num="11" name="C_TX" type="passive"/>
+        <pin num="12" name="TX+" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/library/Jumper.lib</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>/usr/share/kicad/library/Memory_EEPROM.lib</uri>
+    </library>
+    <library logical="Misc">
+      <uri>/home/rhowlett/OpenBMS/Hardware/Standalone_Shield/../LIBS/Misc/Misc.lib</uri>
+    </library>
+    <library logical="OpenBMS">
+      <uri>/home/rhowlett/OpenBMS/Hardware/Standalone_Shield/../LIBS/OpenBMS.lib</uri>
+    </library>
+    <library logical="Pulse">
+      <uri>/home/rhowlett/OpenBMS/Hardware/Standalone_Shield/../LIBS/Pulse/HM2xxNL.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J9" pin="1"/>
+      <node ref="SHD1" pin="GND"/>
+      <node ref="J4" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J8" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="8"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J1" pin="13"/>
+      <node ref="C10" pin="2"/>
+      <node ref="TH1" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="2" name="/GPIO8">
+      <node ref="SHD1" pin="GPIO8"/>
+      <node ref="J5" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="3" name="/GPIO7">
+      <node ref="J6" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="SHD1" pin="GPIO7"/>
+    </net>
+    <net code="4" name="/SCK">
+      <node ref="J1" pin="4"/>
+      <node ref="JP4" pin="3"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="5" name="/ILJ+">
+      <node ref="JP4" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="TR1" pin="10"/>
+    </net>
+    <net code="6" name="/CS">
+      <node ref="J1" pin="6"/>
+      <node ref="JP3" pin="3"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="7" name="/IL-">
+      <node ref="JP3" pin="2"/>
+      <node ref="SHD1" pin="ILM"/>
+    </net>
+    <net code="8" name="/ISOMD">
+      <node ref="SHD1" pin="ISOMD"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="9" name="/GPIO9">
+      <node ref="R11" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="SHD1" pin="GPIO9"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="10" name="/ILJ-">
+      <node ref="R4" pin="1"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="TR1" pin="12"/>
+    </net>
+    <net code="11" name="+5V">
+      <node ref="R10" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="SHD1" pin="VREG"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="12" name="/EE_GND">
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J1" pin="12"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="13" name="/EE_SDA">
+      <node ref="R7" pin="1"/>
+      <node ref="J1" pin="9"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="14" name="/EE_SCK">
+      <node ref="R8" pin="1"/>
+      <node ref="J1" pin="11"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="15" name="/GPIO5">
+      <node ref="U1" pin="1"/>
+      <node ref="SHD1" pin="GPIO5"/>
+    </net>
+    <net code="16" name="/GPIO4">
+      <node ref="SHD1" pin="GPIO4"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="17" name="/GPIO6">
+      <node ref="C12" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="J7" pin="2"/>
+      <node ref="SHD1" pin="GPIO6"/>
+    </net>
+    <net code="18" name="/Cmax">
+      <node ref="R5" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="SHD1" pin="Cmax_in"/>
+    </net>
+    <net code="19" name="/V+">
+      <node ref="C7" pin="1"/>
+      <node ref="SHD1" pin="V+"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="20" name="/DRIVE">
+      <node ref="Q1" pin="1"/>
+      <node ref="SHD1" pin="DRIVE"/>
+    </net>
+    <net code="21" name="/~SDO">
+      <node ref="J1" pin="5"/>
+      <node ref="SHD1" pin="~SDO"/>
+    </net>
+    <net code="22" name="/~SDI">
+      <node ref="J1" pin="7"/>
+      <node ref="SHD1" pin="~SDI"/>
+    </net>
+    <net code="23" name="Net-(SHD1-PadWDT)">
+      <node ref="SHD1" pin="WDT"/>
+    </net>
+    <net code="24" name="Net-(SHD1-PadVREF2)">
+      <node ref="SHD1" pin="VREF2"/>
+    </net>
+    <net code="25" name="/VREF1">
+      <node ref="R17" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="SHD1" pin="VREF1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="26" name="GNDPWR">
+      <node ref="J3" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="27" name="/EE_VCC">
+      <node ref="R7" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="J1" pin="10"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="28" name="/IsoL-">
+      <node ref="TR1" pin="1"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="29" name="/IsoH-">
+      <node ref="TR1" pin="4"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="30" name="Net-(C1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C2-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="32" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="TR1" pin="8"/>
+    </net>
+    <net code="33" name="/IL+">
+      <node ref="JP4" pin="2"/>
+      <node ref="SHD1" pin="ILP"/>
+    </net>
+    <net code="34" name="/IH+">
+      <node ref="SHD1" pin="IHP"/>
+      <node ref="TR1" pin="7"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="35" name="/IH-">
+      <node ref="TR1" pin="9"/>
+      <node ref="R2" pin="1"/>
+      <node ref="SHD1" pin="IHM"/>
+    </net>
+    <net code="36" name="/GPIO3">
+      <node ref="TH1" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="SHD1" pin="GPIO3"/>
+    </net>
+    <net code="37" name="/GPIO2">
+      <node ref="SHD1" pin="GPIO2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="38" name="/GPIO1">
+      <node ref="R16" pin="1"/>
+      <node ref="J9" pin="2"/>
+      <node ref="SHD1" pin="GPIO1"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="39" name="/VREG">
+      <node ref="JP2" pin="3"/>
+      <node ref="JP1" pin="3"/>
+    </net>
+    <net code="40" name="/DTEN">
+      <node ref="SHD1" pin="DTEN"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="41" name="Net-(C6-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="Q1" pin="4"/>
+    </net>
+    <net code="42" name="Net-(J1-Pad14)">
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="43" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="44" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="45" name="Net-(TR1-Pad5)">
+      <node ref="TR1" pin="5"/>
+    </net>
+    <net code="46" name="Net-(TR1-Pad2)">
+      <node ref="TR1" pin="2"/>
+    </net>
+    <net code="47" name="/IsoH+">
+      <node ref="J2" pin="3"/>
+      <node ref="TR1" pin="6"/>
+    </net>
+    <net code="48" name="/IsoL+">
+      <node ref="J3" pin="3"/>
+      <node ref="TR1" pin="3"/>
+    </net>
+    <net code="49" name="Net-(C5-Pad1)">
+      <node ref="TR1" pin="11"/>
+      <node ref="C5" pin="1"/>
+    </net>
+  </nets>
+</export>
