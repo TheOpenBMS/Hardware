@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:OpenBMS-cache
+LIBS:LTC6811_12cell_DCARD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 16
+Sheet 2 14
 Title ""
 Date ""
 Rev ""

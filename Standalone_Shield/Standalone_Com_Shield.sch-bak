@@ -2200,6 +2200,7 @@ F 3 "${KIPRJMOD}/../DATASHEETS/EEPROM/MC_24AA01.pdf" H 1850 2250 50  0001 C CNN
 F 4 "Microchip" H 1850 2250 50  0001 C CNN "Mft"
 F 5 "24AA01T-I/OT" H 1850 2250 50  0001 C CNN "Mft #"
 F 6 "Note this is a +85C part" H 1850 2250 50  0001 C CNN "Notes"
+F 7 "0.162" H 1850 2250 50  0001 C CNN "Price / 1000"
 	1    1850 2250
 	-1   0    0    -1  
 $EndComp
