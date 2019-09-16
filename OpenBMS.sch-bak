@@ -15,15 +15,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6250 2950 2200 1650
+S 5850 3000 2200 1650
 U 5D167BBA
 F0 "12_Cell_Monitor" 50
 F1 "LTC6811_12cell_DCARD/LTC6811_12cell_DCARD.sch" 50
 $EndSheet
 $Sheet
-S 4250 2950 1450 1650
+S 3500 3000 2200 1650
 U 5D567F1B
-F0 "Sheet5D567F1A" 50
-F1 "Standalone_Com_Shield.sch" 50
+F0 "Isolated Communications Interface" 50
+F1 "Standalone_Shield/Standalone_Com_Shield.sch" 50
 $EndSheet
 $EndSCHEMATC

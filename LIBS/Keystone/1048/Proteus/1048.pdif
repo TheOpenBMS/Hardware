@@ -1,0 +1,203 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "1048"
+   (description "KEYSTONE - 1048 - BATTERY HOLDER, 18650 LI-ION, 2CELL, SMD")
+   (family "ANA")
+   (package "1048")
+   (attribute "Datasheet Link" "http://www.keyelco.com/product-pdf.cfm?p=920")
+   (attribute "Manufacturer_Name" "Keystone Electronics")
+   (attribute "Manufacturer_Part_Number" "1048")
+   (attribute "Mouser Part Number" "534-1048")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=534-1048")
+   (attribute "RS Part Number" "")
+   (attribute "RS Price/Stock" "")
+   (attribute "Allied_Number" "70182390")
+   (attribute "Allied Price/Stock" "https://www.alliedelec.com/keystone-electronics-1048/70182390/")
+   (gate
+    (symbol "1048")
+    (pin "-_1" 1 PS)
+    (pin "+_1" 2 PS)
+    (pin "-_2" 3 PS)
+    (pin "+_2" 4 PS)
+   )
+  )
+  (symbol "1048"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "1048"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.25)
+     (path
+      (closed true)
+      (pt -10.93 37.395)
+      (pt 66.13 37.395)
+      (pt 66.13 -2.385)
+      (pt -10.93 -2.385)
+      (pt -10.93 37.395))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (path
+      (closed false)
+      (pt -10.93 37.395)
+      (pt 53.6 37.395))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (path
+      (closed false)
+      (pt 66.13 -2.385)
+      (pt 1.6 -2.385))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (path
+      (closed false)
+      (pt 66.13 23.574)
+      (pt 66.13 11.436))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (path
+      (closed false)
+      (pt -10.93 23.574)
+      (pt -10.93 11.436))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (path
+      (closed false)
+      (pt -10.93 37.395)
+      (pt -10.93 30.605))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (path
+      (closed false)
+      (pt -10.93 -2.385)
+      (pt -10.93 4.405))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (path
+      (closed false)
+      (pt 66.13 37.395)
+      (pt 66.13 30.605))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (path
+      (closed false)
+      (pt 66.13 -2.385)
+      (pt 66.13 4.405))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (path
+      (closed false)
+      (pt 66.13 37.395)
+      (pt 56.8 37.395))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (path
+      (closed false)
+      (pt -10.93 -2.385)
+      (pt -1.6 -2.385))))
+   (layer TSLK
+    (graphic
+     (stroke 0.5)
+     (circle
+      (pt -17.624 7.948) (pt -17.174 7.948)
+     )
+    )
+   )
+   (leg 1 (pt -12.225 7.95) (padstack 0))
+   (leg 2 (pt 67.425 7.95) (padstack 0))
+   (leg 3 (pt 67.425 27.06) (padstack 0))
+   (leg 4 (pt -12.225 27.06) (padstack 0))
+   (leg 5 (pt 0 17.505) (padstack 5))
+   (leg 6 (pt 0 0) (padstack 6))
+   (leg 7 (pt 55.2 17.505) (padstack 7))
+   (leg 8 (pt 63.42 0) (padstack 8))
+   (leg 9 (pt 55.2 35.01) (padstack 9))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 6.35 7.34 0 0 0))
+   )
+   (padstack 5
+    (hole 3.17)
+    (plated true)
+    (pad (layer TCOP) (round 4.7))
+    (pad (layer INNER) (round 4.7))
+    (pad (layer BCOP) (round 4.7))
+   )
+   (padstack 6
+    (hole 3.54)
+    (plated true)
+    (pad (layer TCOP) (round 5))
+    (pad (layer INNER) (round 5))
+    (pad (layer BCOP) (round 5))
+   )
+   (padstack 7
+    (hole 3.17)
+    (plated true)
+    (pad (layer TCOP) (round 4.7))
+    (pad (layer INNER) (round 4.7))
+    (pad (layer BCOP) (round 4.7))
+   )
+   (padstack 8
+    (hole 2.39)
+    (plated true)
+    (pad (layer TCOP) (round 3.5))
+    (pad (layer INNER) (round 3.5))
+    (pad (layer BCOP) (round 3.5))
+   )
+   (padstack 9
+    (hole 3.45)
+    (plated true)
+    (pad (layer TCOP) (round 5))
+    (pad (layer INNER) (round 5))
+    (pad (layer BCOP) (round 5))
+   )
+  )
+ )
+)
