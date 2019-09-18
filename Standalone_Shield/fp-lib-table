@@ -3,4 +3,5 @@
   (lib (name Misc)(type KiCad)(uri ${KIPRJMOD}/../LIBS/Misc)(options "")(descr ""))
   (lib (name muRata)(type KiCad)(uri ${KIPRJMOD}/../LIBS/muRata.pretty)(options "")(descr ""))
   (lib (name OpenBMS)(type KiCad)(uri ${KIPRJMOD}/../MODS/OpenBMS.pretty)(options "")(descr ""))
+  (lib (name Kestone)(type KiCad)(uri ${KIPRJMOD}/../MODS/Kestone.pretty)(options "")(descr ""))
 )
